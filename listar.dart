@@ -1,0 +1,12 @@
+void listarPeliculas(List<Map<String, dynamic>> peliculas) {
+  print("\n===== LISTAR PELÍCULAS =====");
+
+  for (int i = 0; i < peliculas.length; i++) {
+    print("Índice: $i");
+    print("Título: ${peliculas[i]["titulo"]}");
+    print("Director: ${peliculas[i]["director"]}");
+    print("Año: ${peliculas[i]["anio"]}");
+    print("Género: ${peliculas[i]["genero"]}");
+    print("-------------------------");
+  }
+}

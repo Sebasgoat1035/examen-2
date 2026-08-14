@@ -31,11 +31,11 @@ void main() {
         break;
 
       case "3":
-        //actualizarPelicula(peliculas);
+        actualizarPelicula(peliculas);
         break;
 
       case "4":
-        //eliminarPelicula(peliculas);
+        eliminarPelicula(peliculas);
         break;
 
       case "5":

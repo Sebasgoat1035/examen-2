@@ -27,7 +27,7 @@ void main() {
         break;
 
       case "2":
-        //listarPeliculas(peliculas);
+        listarPeliculas(peliculas);
         break;
 
       case "3":
